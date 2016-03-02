@@ -10,9 +10,9 @@ public class Task5 {
         a=new int[7][4];
         int maxind, pr, maxpr, i,j;
         
-        pr=1;
-        maxpr=-1;
-        maxind=0;
+        pr=1;// произв. строки
+        maxpr=-1;//макс. произв.
+        maxind=0;//индекс строки. с макс. произв.
         
         for (i=0; i<7; i++) {
             for (j=0; j<4; j++) {
@@ -24,7 +24,7 @@ public class Task5 {
             pr=Math.abs(pr);
             if (pr>maxpr) {
                 maxpr=pr;
-                maxind=i;
+                maxind=i+1;
             }
             pr=1;
         }

@@ -9,7 +9,7 @@ public class Task2 {
         int[] a;
         a=new int[50];
         for (i=0; i<=n; i++) {
-            a[i]=2*i-1;
+            a[i]=2*(i+1)-1;
             System.out.print(a[i]+" ");
         }
         
